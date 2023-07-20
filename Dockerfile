@@ -13,6 +13,7 @@ RUN set -eux; \
         libc6-dev \
         wget \
         protobuf-compiler libprotobuf-dev \
+        netcat-openbsd \
         ; \
     dpkgArch="$(dpkg --print-architecture)"; \
     case "${dpkgArch##*-}" in \
