@@ -1,4 +1,4 @@
-FROM debian:bookworm-slim
+FROM registry.cn-beijing.aliyuncs.com/cloudnative-challenge/ubuntu:latest
 
 ENV RUSTUP_HOME=/usr/local/rustup \
     CARGO_HOME=/usr/local/cargo \
